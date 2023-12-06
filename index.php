@@ -4,7 +4,10 @@ include_once(__DIR__ . '/components/header.php');
 ?>
 
 <main class="container bg-info">
-  <h1>Pagina Inicial</h1>
+  <h1>Página Inicial</h1>
+
+ 
+
 
   <!-- carousel -->
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -38,14 +41,49 @@ include_once(__DIR__ . '/components/header.php');
 
   <p>Bem-vindo ao Chef Em Casa, o seu destino online para explorar, criar e compartilhar experiências culinárias únicas. Descubra receitas deliciosas, compartilhe suas próprias criações e conecte-se com uma comunidade apaixonada por culinária. Seja você um chef experiente ou alguém apenas começando sua jornada na cozinha, aqui você encontrará inspiração para cada paladar.</p>
 
-  <!-- login -->
-  <form class="form-inline my-2 my-lg-0">
-    <a class="btn btn-outline-success my-2 my-sm-0 p-1" href="register.php">
-      Cadastre-se
-      <a class="btn btn-outline-success my-2 my-sm-0 p-1 ml-4" href="login.php">
-        Logar
-      </a>
-  </form>
+  <!-- cards -->
+
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Últimas receitas:</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Pratos prontos:</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <div class="alert alert-secondary" role="alert">
+    Monte aqui seu prato<a href="#" class="alert-link">
+      <> CLIQUE AQUI <>
+    </a>Sejam bem-vindos, Bom almoço!
+  </div>
+  <div class="alert alert-success" role="alert">
+    Pratos prontos<a href="#" class="alert-link">
+      <> CLIQUE AQUI <>
+    </a>Sejam bem-vindos, Bom almoço!
+  </div>
+  <div class="alert alert-danger" role="alert">
+    Cardápio da Casa<a href=" " class="alert-link">
+      <> CLIQUE AQUI <>
+    </a>Sejam bem-vindos, Bom almoço!
+  </div>
+
 
 
 
